@@ -2,12 +2,11 @@ arch:
   - amd64
   - ppc64le
   
+dist: bionic  
 language: ruby
 
 rvm:
-  - 1.6
   - 1.7
-  - 1.8
   - 1.9
   - 2.0
   - 2.1
@@ -16,12 +15,7 @@ rvm:
   - 2.5
   - 2.6
   - 2.7
-  - 2.8
-  - 2.9
-  - 3.0
-  - 3.1
   - jruby
-  - rbx-4
   - truffleruby 
 
 srcipt: arch
