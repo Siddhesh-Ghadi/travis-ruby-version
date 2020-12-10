@@ -2,7 +2,7 @@ arch:
   - amd64
   - ppc64le
   
-dist: bionic  
+dist: focal 
 language: ruby
 
 rvm:
